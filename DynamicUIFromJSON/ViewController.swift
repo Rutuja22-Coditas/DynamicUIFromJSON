@@ -1,9 +1,4 @@
-//
-//  ViewController.swift
-//  DynamicUIFromJSON
-//
-//  Created by Coditas on 15/11/21.
-//
+
 
 import UIKit
 

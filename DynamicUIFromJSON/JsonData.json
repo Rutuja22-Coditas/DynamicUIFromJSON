@@ -6,11 +6,11 @@
         "type":"table",
         "rows": [
             {
-                "title":"Name"
+                "title":"First Row"
             },
             {
                 "title":"second row",
-                "actionType" : "new screen",
+                "actionType" : "Label",
                 "action":{
                    "message": "second row"
                 }
