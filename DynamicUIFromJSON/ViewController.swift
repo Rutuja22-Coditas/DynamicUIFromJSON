@@ -54,7 +54,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
             }
             //let abc = (UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 500)))
-            let label = UILabel(frame: CGRect(x: 120, y: 100, width: 150, height: 100))
+            let label = UILabel(frame: CGRect(x: 120, y: 100, width: row.action!.width, height: row.action!.height))
             label.backgroundColor = .white
             label.text = row.action?.message
             label.textAlignment = .center
@@ -71,7 +71,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             let jsonData = try JSONDecoder().decode(Application.self, from : data)
             print("jsonData",jsonData.screens)
             screen = jsonData.screens
-            print(type(of: jsonData))
             
         }
         catch{

@@ -24,6 +24,8 @@ struct Row : Codable {
 struct AlertAction: Codable {
     //let title : String
     let message : String
+    let width : Int
+    let height : Int
 }
 struct name {
     let label : String

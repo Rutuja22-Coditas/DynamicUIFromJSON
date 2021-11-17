@@ -12,7 +12,10 @@
                 "title":"second row",
                 "actionType" : "Label",
                 "action":{
-                   "message": "second row"
+                   "message": "second row",
+                   "width" : 200,
+                   "height" : 100
+                   
                 }
             },
             {
