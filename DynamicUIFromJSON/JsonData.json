@@ -1,0 +1,25 @@
+{
+    "screens": [
+    {
+        "id":"home",
+        "title":"home",
+        "type":"table",
+        "rows": [
+            {
+                "title":"Name"
+            },
+            {
+                "title":"second row",
+                "actionType" : "new screen",
+                "action":{
+                   "message": "second row"
+                }
+            },
+            {
+                "title":"third row"
+            }
+        ]
+        
+    }
+    ]
+}

@@ -13,6 +13,10 @@
 		7E0CC4E427424B3C00B3A130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0CC4E227424B3C00B3A130 /* Main.storyboard */; };
 		7E0CC4E627424B3E00B3A130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E0CC4E527424B3E00B3A130 /* Assets.xcassets */; };
 		7E0CC4E927424B3E00B3A130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0CC4E727424B3E00B3A130 /* LaunchScreen.storyboard */; };
+		7E0CC4F6274256E500B3A130 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E0CC4F5274256E500B3A130 /* Data.json */; };
+		7E0CC4FB27425DF700B3A130 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0CC4FA27425DF700B3A130 /* DataModel.swift */; };
+		7E0CC4FE27427B9700B3A130 /* UserData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E0CC4FD27427B9700B3A130 /* UserData.json */; };
+		7EEEB8A62744D74F00BC5B10 /* JsonData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EEEB8A52744D74F00BC5B10 /* JsonData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		7E0CC4E527424B3E00B3A130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E0CC4E827424B3E00B3A130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E0CC4EA27424B3E00B3A130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E0CC4F5274256E500B3A130 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		7E0CC4FA27425DF700B3A130 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		7E0CC4FD27427B9700B3A130 /* UserData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UserData.json; sourceTree = "<group>"; };
+		7EEEB8A52744D74F00BC5B10 /* JsonData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = JsonData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				7E0CC4DC27424B3C00B3A130 /* AppDelegate.swift */,
 				7E0CC4DE27424B3C00B3A130 /* SceneDelegate.swift */,
 				7E0CC4E027424B3C00B3A130 /* ViewController.swift */,
+				7E0CC4FA27425DF700B3A130 /* DataModel.swift */,
 				7E0CC4E227424B3C00B3A130 /* Main.storyboard */,
 				7E0CC4E527424B3E00B3A130 /* Assets.xcassets */,
 				7E0CC4E727424B3E00B3A130 /* LaunchScreen.storyboard */,
 				7E0CC4EA27424B3E00B3A130 /* Info.plist */,
+				7E0CC4F5274256E500B3A130 /* Data.json */,
+				7EEEB8A52744D74F00BC5B10 /* JsonData.json */,
+				7E0CC4FD27427B9700B3A130 /* UserData.json */,
 			);
 			path = DynamicUIFromJSON;
 			sourceTree = "<group>";
@@ -125,8 +137,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E0CC4E927424B3E00B3A130 /* LaunchScreen.storyboard in Resources */,
+				7EEEB8A62744D74F00BC5B10 /* JsonData.json in Resources */,
 				7E0CC4E627424B3E00B3A130 /* Assets.xcassets in Resources */,
 				7E0CC4E427424B3C00B3A130 /* Main.storyboard in Resources */,
+				7E0CC4F6274256E500B3A130 /* Data.json in Resources */,
+				7E0CC4FE27427B9700B3A130 /* UserData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E0CC4E127424B3C00B3A130 /* ViewController.swift in Sources */,
+				7E0CC4FB27425DF700B3A130 /* DataModel.swift in Sources */,
 				7E0CC4DD27424B3C00B3A130 /* AppDelegate.swift in Sources */,
 				7E0CC4DF27424B3C00B3A130 /* SceneDelegate.swift in Sources */,
 			);

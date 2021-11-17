@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+        "type": "UILabel",
+        "data": "Here is a headline",
+        "id": "label1"
+    },
+    {
+        "type": "UIImage",
+        "data": "http://doge2048.com/meta/doge-600.png",
+        "id": "image1"
+    },
+    {
+        "type": "UIButton",
+        "data": "Click me",
+        "id": "button1"
+    }
+  ]
+}
